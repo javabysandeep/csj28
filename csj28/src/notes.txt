@@ -1,0 +1,22 @@
+#Assignment : 28 Nov 2022 Monday
+Step 1: Download and install git https://git-scm.com/downloads
+Step 2: Create a account on github
+Step 3: Open git software
+Step 4: to copy the project from git to the local machine
+		git clone URL[https://github.com/javabysandeep/csj28]
+Step 5: Check the file changes in staging area
+		git status
+Step 6: Get the files update from remote : git pull
+
+# Commands
+git clone : copy the project from remote machine to local machine
+git status: to check the files in staging area
+git add: add the files from workspace to staging area
+git commit: add file from staging to local repository
+git push: add files from local to remote repo
+git pull : get the file from remote repo to local repo
+git fetch : get the file from local to workspace
+
+
+
+
