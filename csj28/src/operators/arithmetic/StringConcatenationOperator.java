@@ -9,6 +9,25 @@ public class StringConcatenationOperator {
         System.out.println('A' + "A" + 30 + 40);//AA3040
         System.out.println('A' + "A");//AA
         System.out.println('A' + 'A');//130
-        
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
