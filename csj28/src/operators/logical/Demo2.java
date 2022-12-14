@@ -14,3 +14,6 @@ public class Demo2 {
         //false
     }
 }
+//git clone copied-link
+//goto folder
+//git pull
