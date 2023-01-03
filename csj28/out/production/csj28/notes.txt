@@ -26,6 +26,83 @@ variable: it is a name given to a memory location address so it becomes easy to 
     //25 is the value
 
 
+__________________________________________________________________________________________________________________________________________________________________
+# variables : To store data or access the data which is already stored
+    # instance variable :
+     why to use
+     where they get the memory
+     how many times they get the memory
+     what are they?
+        - instance variables are the variables which are defined at class and
+            outside all class components
+            i.e. outside of method, constructor, blocks, nested class
+            without any static modifier
+
+        - to store data which is object specific.
+        - instance variables are stored inside the HEAP memory area
+        - instance variables will get the memory every time object is created
+
+    # static variable :
+     why to use
+     where they get the memory
+     how many times they get the memory
+     what are they?
+             - static variables are the variables which are defined at class and
+                 outside all class components
+                 i.e. outside of method, constructor, blocks, nested class
+                 with any static modifier
+
+         - to store data which is common for all objects.
+         - static variables are stored inside the class or method memory area
+         - will be stored only once
+
+# local variable :
+     what are they?
+         - local variables are the variables which are defined inside
+                of method, constructor, blocks, method parameter
+           with any static modifier
+     why to use
+     - to store data which is temporary calculations.
+     - this data is not specific to common to all objects
+
+     where they get the memory
+     - local variables are stored inside the STACK memory area
+
+     how many times they get the memory?
+     - will be stored everytime method, block, constructor is called.
+
+    whether local variables will get the default value?
+        - local variables must be initialized before they are used otherwise CTE.
+     - Local variables will not get default values. Developer is required to give initial or default value
+
+    How to use local variables?
+        - we define the variables inside the method/block/constructor
+        - we use them inside the same method/block/constructor
+        - we cannot access local variables outside
+
+
+
+
+
+
+
+
+
+
+
+
+
+# methods : to represent behaviors, task,
+    instance, static
+
+# constructors: To build objects
+    default, zero, parameterized
+
+# blocks : to maintain non-initialization activities of an object [ when & how many objects are created]
+    instance, static
+
+# nested class : To group multiple class which are logically doing same task.
+    static, inner class, local inner class, anonymous class
 
 
 
