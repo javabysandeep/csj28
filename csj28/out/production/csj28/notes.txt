@@ -79,6 +79,16 @@ ________________________________________________________________________________
         - we define the variables inside the method/block/constructor
         - we use them inside the same method/block/constructor
         - we cannot access local variables outside
+        - to access local variables we don't need any reference variable, ot class name
+        - we access them directly
+
+
+
+
+
+
+
+
 
 
 
