@@ -83,6 +83,52 @@ ________________________________________________________________________________
         - we access them directly
 
 
+# methods :
+    what:
+        - it is a group of statements enclosed inside the curly braces
+        - which has a name
+        - which might accept input parameters ()
+        - which might return some output values
+        - even though method does not return anything it is mandatory to write void
+        syntax:
+            return_type nameOfMethod (input parameters) {
+                //statements
+            }
+        e.g. 1. Method with no input no output
+                 void m1(){}
+
+        e.g. 2. Method with input no output
+                void method(int number1){ }
+
+        e.g. 3. Method with no input but returns output
+                int method(){
+                    return 1;
+                 }
+
+        e.g. 4. Method with  input and returns output
+                int add(int number1, int number2){
+                    return number1 + number2;
+                 }
+
+# Instance method:
+    What - it is a method created at class level outside of constructor, block, methods without static modifier
+       e.g.  int add(int number1, int number2){
+                      return number1 + number2;
+               }
+    Why: to represent object specific behaviour/task
+    How to access: we need reference variable to access instance method
+    ** We cant define method inside another method/constructor/block
+
+# static method:
+    What - it is a method created at class level outside of constructor, block, methods
+            with static modifier
+       e.g.  static int add(int number1, int number2){
+                      return number1 + number2;
+               }
+    Why: to represent behaviour/task common for all the objects
+    How to access: we need class name to access static method
+
+**** Non-static members [instance variable, instance method] cant be accessed from static method or static block
 
 
 
@@ -91,20 +137,6 @@ ________________________________________________________________________________
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# methods : to represent behaviors, task,
-    instance, static
 
 # constructors: To build objects
     default, zero, parameterized
