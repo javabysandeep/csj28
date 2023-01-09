@@ -128,6 +128,7 @@ ________________________________________________________________________________
     Why: to represent behaviour/task common for all the objects
     How to access: we need class name to access static method
 
+**** Non-static members [instance variable, instance method] cant be accessed from static method or static block
 
 
 
