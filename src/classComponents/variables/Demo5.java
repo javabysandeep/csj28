@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Demo5 {
     int number1 = 100;//Heap

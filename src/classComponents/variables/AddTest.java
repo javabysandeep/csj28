@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class AddTest {
     public static void main(String[] args) {

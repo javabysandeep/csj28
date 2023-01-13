@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class EpisodeTest {
     public static void main(String[] args) {

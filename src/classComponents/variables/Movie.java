@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Movie {
     //instance variables will get the memory when object is created

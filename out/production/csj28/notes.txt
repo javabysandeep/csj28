@@ -148,11 +148,18 @@ ________________________________________________________________________________
     static, inner class, local inner class, anonymous class
 
 
+// Constructor:
+- why to use
+    - we need constructors to create/build/construct the objects
+    - object constructions is nothing but initialize the instance variables.
+    - constructor is used to put some default value for object
 
+- what is constructor?
+    - it is a special method which has same name as of class name
+    - this does not have any return type not even void
+    - no access modifier [static, final, abstract, synchronized...]
 
-
-
-
+    * we can have a normal java method which has same name as of class name.
 
 
 

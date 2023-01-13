@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Demo3 {
     //to access instance variables we need reference variable

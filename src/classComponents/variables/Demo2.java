@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Demo2 {
     int number1 = 100; //instance variable

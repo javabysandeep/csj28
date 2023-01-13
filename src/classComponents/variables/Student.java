@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Student {
    //instance variables : specific to object

@@ -1,4 +1,4 @@
-package classComponents;
+package classComponents.variables;
 
 public class Demo4 {
     static int number = 100;
