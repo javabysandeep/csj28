@@ -158,15 +158,79 @@ ________________________________________________________________________________
     - it is a special method which has same name as of class name
     - this does not have any return type not even void
     - no access modifier [static, final, abstract, synchronized...]
-
+    - constructor can accept the parameters[input]
+        - zero parameterized constructor: if constructor does not accept any parameters
+        - parmaterzied constructor: if constructor accepts the parameter
     * we can have a normal java method which has same name as of class name.
 
+# Types of constructors
+1. default constructor
+    - it is a constructor provided by java compiler when developer does not provide any other constructor
+    - default constructor does not accept any parameters and does not have any implementation
+    - if developer provides any constructor then default constructor is not provided by java compiler
 
+2. zero parameterized constructor
+    - it does not accept any parameters
+    - but we can write the implementation [body] inside the curly braces
+    - it is provided by developer
+    - e.g.
+            class Student {
+                Student() {
 
+                }
+            }
 
+3. parameterized constructor
+    - it does accept parameters
+    - it is provided by developer
+    - but we can write the implementation [body] inside the curly braces
+    - e.g.
+                class Student {
+                    int id;
+                    String name;
 
+                    Student(int i, String s) {
+                    // assigning local variables to the instance variables
+                        id = i;
+                        name = s;
+                    }
+                }
 
+# how to access the constructor?
+- at the time object creation we call constructors
+    e.g.
+        Student student = new Student();// call to the constructor
+        Student student = new Student(1,"abc");// call to the param constructor
 
+__________________________________________________________________________________________________________________________________________________________________
+Blocks: - group of statements enclosed inside the curly braces
+- instance block:
+    - what is it ?: it is a block of code enclosed inside the curly braces at class level without static keyword
+    - syntax:
+            class Demo {
+                {
+                    //instance block
+                }
+    - why to use instance block:
+        - we use it to perform non-initialization activities such as maintaining no. of objects created, logging, auditing
+    - when instance block will be executed?
+        - every time object is created instance block will called
+
+- static block:
+    - what is it ?: it is a block of code enclosed inside the curly braces at class level with static keyword
+            }
+     - syntax:
+           class Demo {
+               static {
+                    //static block
+                }
+            }
+    - why to use static block: to perform one-time activity such as connecting to the database, server, loading the drivers
+    - when static block will be executed?
+        - it will be executed only once at the time of class loading
+
+Q. Order of execution between instance block, static block, constructor
+Ans. static block --> instance block --> constructor
 
 
 

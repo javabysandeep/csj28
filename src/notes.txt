@@ -202,6 +202,76 @@ ________________________________________________________________________________
         Student student = new Student();// call to the constructor
         Student student = new Student(1,"abc");// call to the param constructor
 
+__________________________________________________________________________________________________________________________________________________________________
+Blocks: - group of statements enclosed inside the curly braces
+- instance block:
+    - what is it ?: it is a block of code enclosed inside the curly braces at class level without static keyword
+    - syntax:
+            class Demo {
+                {
+                    //instance block
+                }
+    - why to use instance block:
+        - we use it to perform non-initialization activities such as maintaining no. of objects created, logging, auditing
+    - when instance block will be executed?
+        - every time object is created instance block will called
+
+- static block:
+    - what is it ?: it is a block of code enclosed inside the curly braces at class level with static keyword
+            }
+     - syntax:
+           class Demo {
+               static {
+                    //static block
+                }
+            }
+    - why to use static block: to perform one-time activity such as connecting to the database, server, loading the drivers
+    - when static block will be executed?
+        - it will be executed only once at the time of class loading
+
+Q. Order of execution between instance block, static block, constructor
+Ans. static block --> instance block --> constructor
+
+
+
+
+# nested classes:
+-what it is?
+    - a class which is created inside another class
+
+- types of nested classed:
+    - static nested class
+        - it is class defined inside another class with static modifier.
+        - syntax:
+                class A {
+                    static class B {
+
+                      }
+              }
+    - non-static nested class i.e. Inner class
+         - it is class defined inside another class without static modifier.
+        - syntax:
+                class A {
+                    // B is a Inner class
+                     class B {
+
+                      }
+                }
+
+    - Local Inner class
+        - it is a class which is defined inside the method without static modifier
+        - syntax :
+            class Demo {
+
+                PSVM(){
+                    class Local {}
+
+                }
+
+            }
+    - Anonymous class [abstract class and interface concept]
+
+
 
 
 
