@@ -235,5 +235,55 @@ Ans. static block --> instance block --> constructor
 
 
 
+# nested classes:
+-what it is?
+    - a class which is created inside another class
+
+- types of nested classed:
+    - static nested class
+        - it is class defined inside another class with static modifier.
+        - syntax:
+                class A {
+                    static class B {
+
+                      }
+              }
+    - non-static nested class i.e. Inner class
+         - it is class defined inside another class without static modifier.
+        - syntax:
+                class A {
+                    // B is a Inner class
+                     class B {
+
+                      }
+                }
+
+    - Local Inner class
+        - it is a class which is defined inside the method without static modifier
+        - syntax :
+            class Demo {
+
+                PSVM(){
+                    class Local {}
+
+                }
+
+            }
+    - Anonymous class [abstract class and interface concept]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
