@@ -272,8 +272,18 @@ Ans. static block --> instance block --> constructor
     - Anonymous class [abstract class and interface concept]
 
 
-
-
+# OOPS
+1. Encapsulation:
+- what is it?
+    - Encapsulation is a process of binding of data and methods which are acting on the data as a single unit.
+    - Data + Method
+- How to implement encapsulation?
+    - we make data members private
+    - we provide public methods for setting or getting the instance variables
+    - getters and setters
+- why do we need encapsulation?
+    - we need encapsulation to protect the data
+    - get better control on data
 
 
 
