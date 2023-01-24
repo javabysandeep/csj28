@@ -284,8 +284,40 @@ Ans. static block --> instance block --> constructor
 - why do we need encapsulation?
     - we need encapsulation to protect the data
     - get better control on data
+- drawbacks
+    - lot of code
+    -
 
+#Inheritance
+Q. what is inheritance?
+   - It is a process of acquiring non-static, non-private & non-final members from one class to another class
+   - inheritance represents IS-A type of relationship
 
+Q. Why to use inheritance?
+    - It is used for code usability purpose
+
+Q. How to use Inheritance?
+   - by using extends keyword
+   - We define common data and methods in a class so that it can be reused. Such class is called as Parent/Super/Base
+   - We create another class and use extends keyword along with the base class.
+   e.g. // Base/Parent/Super class
+        public class Loan {
+            //common data
+            int loadId;
+            int loanAmount
+            int rateOfInterest;
+            int loanDuration;
+            String borrowerName;
+
+            // common methods
+            void apply(){}
+            void checkLoanEligibility(){}
+            void calculateInterestPayment(){}
+
+        }
+
+        // Child/Sub/Derived class
+        class PersonalLoan extends Loan {}
 
 
 
