@@ -319,6 +319,73 @@ Q. How to use Inheritance?
         // Child/Sub/Derived class
         class PersonalLoan extends Loan {}
 
+# Polymorphism:
+- What it is?
+    - It is an ability of an object to changes its behaviour either at compile time or run time.
+    - Poly - many
+    - morph - forms/methods/behaviour/task/function
+
+-  How to achieve polymorphism?
+    - We achieve polymorphism with the help of method overloading and method overriding
+
+- Types of Polymorphism:
+    - Compile time Polymorphism / static binding / early biding [Method overloading]
+    - runtime time Polymorphism / dynamic binding / late biding [Method overriding]
+
+- What is binding?
+    - It is a process of deciding which method will be called at the time of execution
+
+# What is method overloading?
+- It is a process of defining multiple methods with
+    - the same name
+    - but different signature in the same class or in the child class
+- In method overloading return type of the method will not be considered.
+
+# can we overload final, static, private methods?
+    - We can overload
+
+# can we overload main method?
+    - Yes we can
+
+# can we overload constructor?
+   - Yes we can
+
+# What is method overriding?
+- It is a process of defining a method in the child class with
+    - same name
+    - same return type
+    - same signature
+    - same or more relaxed access specifier
+    as of parent class method.
+
+- In method overriding  return type of the method will be considered.
+
+# can we override final, static, private methods?
+    - No.
+
+# can we override main method?
+    - No.
+
+# can we override constructor?
+   - No.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
