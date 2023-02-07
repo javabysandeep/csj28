@@ -369,11 +369,25 @@ Q. How to use Inheritance?
 # can we override constructor?
    - No.
 
+# Final keyword
+- final keyword can be applied on variable, methods and classes
+- final variable cant be reassigned the value
+- final methods cannot be overriden
+- final class cannot be extended.
 
 
+# Immutable class:
+- If a class is made immutable then its object state/content can't be changed once object is created.
 
+- How to make immutable class?
+    - We make class as final
+    - make data members private
+    - do not provide any public setters.
 
+- String class and all other wrapper classes [Byte, Short, Integer, Long, Character, Float, Double, Boolean]
+ are immutable classes.
 
+# Abstraction :
 
 
 
