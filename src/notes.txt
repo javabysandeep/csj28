@@ -390,6 +390,27 @@ Q. How to use Inheritance?
 # Abstraction :
 
 
+# Array:
+- what: it is a collection of homogenenous elements which are stored in continuous/sequential memory locations
+
+- why : we use array to store multiple values of same type
+
+- how to create an array
+    - way 1: dataType [] arrayVariableName = new dataType[sizeOfArray];
+    - way 2: dataType [] arrayVariableName = {values separated by comma};
+    - way 3:
+            - dataType [] arrayVariableName;
+            - arrayVariableName = new dataType[sizeOfArray];
+
+# How to access array elements?
+- We access the array elements with the help of array index.
+- array index starts from zero [why array index starts from zero]
+- base address: it is where array's first element is stored.
+- index: it is a measure of how far the element is from first element i.e. base address
+- to calculate the memory location of any given element in the given array
+     BASE_ADDRESS + DATA_TYPE_SIZE * INDEX;
+
+-  int[] array = {1,2,3}; SOP(array[0])
 
 
 
