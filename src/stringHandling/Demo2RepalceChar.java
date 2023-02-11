@@ -1,4 +1,4 @@
-package array.charArrayDemos;
+package stringHandling;
 
 public class Demo2RepalceChar {
     public static void main(String[] args) {

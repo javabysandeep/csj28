@@ -1,4 +1,4 @@
-package array.charArrayDemos;
+package stringHandling;
 
 public class Demo5IsEmpty {
     public static void main(String[] args) {
