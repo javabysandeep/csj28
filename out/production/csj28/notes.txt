@@ -413,19 +413,64 @@ Q. How to use Inheritance?
 -  int[] array = {1,2,3}; SOP(array[0])
 
 
+# File Handling [java.io package]
+1. File
+
+- Byte Oriented Streams
+2. InputStream
+    - FileInputStream
+    - BufferedInputStream
+    - ObjectInputStream
+3. OutputStream
+    - FileOutputStream
+    - BufferedOutputStream
+    - ObjectOutputStream
+
+- character oriented streams
+1. Reader
+    - FileReader
+    - BufferedReader
+2. Writer
+    - FileWriter
+    - BufferedWriter
+
+# File
+  - It represents physical files in java object format
+  - With the help of file class we can
+    - create new file
+    - create new folder/directory
+    - delete file
+    - delete folder/directory
+    - rename file
+    - rename folder/directory
+    - get the path of file/directory
+        - relative
+        - absolute
+    - get the size/length of a file
+    - can set the file/folder permissions
+    - can get the file/folder permissions
+    - check file or folder exists
+    - check whether file is empty or not
+    - can get or set the last modified time.
+    - can get or set the created time.
+    - list the file names in a given folder
+    - list the file in a given folder
+    - filter the files in a given folder
+*** With File class we don't have methods for reading and writing purpose
 
 
+-------------------------------------------------------
+Read from a file directly in terms of bytes : FileInputStream
+Write to a file directly in terms of bytes : FileOutputStream
+Read from a buffer directly in terms of bytes : BufferedInputStream
+Write to a buffer directly in terms of bytes : BufferedOutputStream
 
 
-
-
-
-
-
-
-
-
-
+# Serialization : It is a process of writing java objects permanently on the file
+# De-Serialization : It is a process of reading java object from the file
+# To perform serialization or deserialization we have to implement Serialzable Interface
+- Serialzable(I) : marker interface
+NotSerializableException : will get this exception if we try to serailize an object which is not of ty
 
 
 
