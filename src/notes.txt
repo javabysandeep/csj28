@@ -472,6 +472,61 @@ Write to a buffer directly in terms of bytes : BufferedOutputStream
 - Serialzable(I) : marker interface
 NotSerializableException : will get this exception if we try to serailize an object which is not of ty
 
+# Functional interfaces:
+    - it is a java 8 feature
+    - it is an interface which contains single abstract method
+    - it can contain any number of default methods
+    - it can contain any number of static methods
+    - on functional interface we annotate the interface with @FunctionalInterface
+    - @FunctionalInterface makes sure that interfaces has Single abstract method otherwise it gives compile time error
+    e.g.
+        @FunctionalInterface
+        public interface I1 {
+            int add(int number1, int number2);
+        }
+
+# Lambda Expression:
+Q. why to use lambda expression?
+- We use Lambda expression to implement functional interface only
+- With the lambda we can write concise and short code
+- Lambda expression reduces the code length
+
+Q. What is a Lambda expression?
+- It is an anonymous function which does not have
+    - name
+    - return type
+    - access modifiers
+  which is used to implement functional interface.
+
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
