@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.way1Thread;
 
 public class Demo1 {
     public static void main(String[] args) {

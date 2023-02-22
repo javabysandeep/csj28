@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.way1Thread;
 
 public class WaysToCreateThread2 {
     public static void main(String[] args) {

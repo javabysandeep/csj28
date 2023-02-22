@@ -499,8 +499,25 @@ Q. What is a Lambda expression?
   which is used to implement functional interface.
 
 --------------------------------------------------------
+Examples for Lambda Expressions:
+
+1. Runnable runnable = () -> System.out.println("Hello, world!");
 
 
+2. Function<Integer, Integer> square = (num) -> num * num;
+
+
+3. BiFunction<Integer, Integer, Integer> sum = (num1, num2) -> num1 + num2;
+
+
+4. Predicate<String> isLong = (str) -> str.length() > 10;
+
+5. List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        numbers.forEach((num) -> System.out.println(num));
+
+______________________________________________________________________
+
+Exception in one thread will not cause abnormal termination for other thread
 
 
 
