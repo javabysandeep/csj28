@@ -1,4 +1,4 @@
-package collectionFramework.sorting;
+package collectionFramework.listImpl.sorting;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

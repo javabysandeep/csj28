@@ -1,8 +1,7 @@
-package collectionFramework;
+package collectionFramework.listImpl;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
 public class LinkedListDemo1 {
     public static void main(String[] args) {

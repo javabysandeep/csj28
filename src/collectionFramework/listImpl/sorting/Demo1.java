@@ -1,4 +1,4 @@
-package collectionFramework.sorting;
+package collectionFramework.listImpl.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
